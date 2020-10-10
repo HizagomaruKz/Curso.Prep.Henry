@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  tienenMismaLongitud = length.str1 == length.str2;
+  tienenMismaLongitud = str1.length == str2.length;
   return tienenMismaLongitud;
 }
 
@@ -80,78 +80,107 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  menosQueNoventa = num < 90
+  return menosQueNoventa;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  mayorQueCincuenta =  num > 50;
+  return mayorQueCincuenta;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  obtenerResto = x % y;
+  return  obtenerResto;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  esPar = num % 2 == 0;
+  return esPar;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  esImpar = num % 2 !== 0;
+  return esImpar;
+  }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  elevarAlCuadrado = Math.pow(num, 2);
+  return elevarAlCuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  elevarAlCubo = Math.pow(num, 3)
+  return elevarAlCubo;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  elevar = Math.pow(num, exponent)
+  return elevar;
 }
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
+  redondearNumero = Math.round(num);
+  return redondearNumero;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
+  redondearHaciaArriba = Math.ceil(num);
+  return redondearHaciaArriba;
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+
+  agregarSimboloExclamacion = (str + "!")
+  return agregarSimboloExclamacion;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  combinarNombres = (nombre + " " + apellido);
+  return combinarNombres;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  obtenerSaludo = ("Hola " + nombre + "!");
+  return obtenerSaludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
+  obtenerAreaRectangulo = alto * ancho;
+  return obtenerAreaRectangulo;
 }
 
 
